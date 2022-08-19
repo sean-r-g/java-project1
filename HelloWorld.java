@@ -1,8 +1,14 @@
 public class HelloWorld {
     public static void main (String[] args) {
-        System.out.print("Hello World! ");
-        System.out.print("My name is Sean. ");
-        System.out.println("I am learning Java.");
-        System.out.println(3 * 3);
+        String carName = "Ford";
+        System.out.println(carName);
     }
 }
+
+
+
+// int myNum = 5;
+// float myFloatNum = 5.99f;
+// char myLetter = 'D';
+// boolean myBool = true;
+// String myText = "Hello";
