@@ -1,11 +1,7 @@
 public class HelloWorld {
     public static void main (String[] args) {
-        String carName = "Ford";
-        String name = "Sean";
-        System.out.println("Hi, my name is " + name + " and I drive a " + carName);
-        int x = 5;
-        int y = 10;
-        System.out.println(x + y);
+        float myNum = 5.75f;
+        System.out.println(myNum);
     }
 }
 
