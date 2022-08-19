@@ -1,7 +1,15 @@
 public class HelloWorld {
     public static void main (String[] args) {
-        float myNum = 5.75f;
-        System.out.println(myNum);
+        int day = 2;
+        day = 1;
+        switch (day) {
+            case 1:
+                System.out.println("Saturday");
+                break;
+            case 2:
+                System.out.println("Sunday");
+                break;
+        }
     }
 }
 
